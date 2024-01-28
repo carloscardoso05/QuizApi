@@ -5,7 +5,7 @@ public class DbException extends RuntimeException {
     @Serial
     private static final long serialVersionUID = 1L;
 
-    DbException(String message) {
+    public DbException(String message) {
         super(message);
     }
 }
